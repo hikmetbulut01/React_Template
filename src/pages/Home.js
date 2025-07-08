@@ -27,21 +27,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <h1>Home Page</h1>
-      <p className="welcome-text">Welcome! This is the home page of the React Template project.</p>
-      
-      <section className="cards-section">
-        <h2>Example Cards</h2>
-        <div className="cards-container">
-          {cards.map(card => (
-            <Card 
-              key={card.id}
-              title={card.title}
-              content={card.content}
-              imageUrl={card.imageUrl}
-            />
-          ))}
-        </div>
-      </section>
+      <p className="welcome-text">This is the home page of the React Template project.</p>
     </div>
   );
 };
